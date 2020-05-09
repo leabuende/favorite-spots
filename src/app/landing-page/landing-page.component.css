@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+
+.Maintitle{
+    font-family: 'Roboto Mono', monospace;
+    color:#FF8989;
+    font-size: 70px;
+    margin-top: 90px;
+}
+.Spottitle{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 70px;
+    z-index: 3;
+    margin-top: 90px;
+    margin-left: 25px;
+
+}
+.first{
+    margin-top: 20px;
+}
+.second{
+    margin-top: 10vh;
+    width:40vw;
+    position: relative;
+}
+.list{
+    font-family: 'Roboto Mono', monospace;
+    color:#FF8989;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 5vw;
+    z-index: 4;
+
+}
+
+.second::after{
+    bottom: 0;
+    content: '';
+    display: block;
+    z-index: -1;
+    border-bottom: #FF8989 solid 2px;
+    height: 1px;
+    right: 50%;
+    position: absolute;
+    transform: translate(80%,0);
+    width: 400px;
+}
+.titleBox::after{
+    bottom: 0;
+    content: '';
+    display: block;
+    border-bottom: #FF8989 solid 2px;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-15%,0);
+    width: 500px;
+}
+    
+.circle{
+    z-index: 2;
+    position: absolute;
+    right:0;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-color: #6A9CFD;
+}
+.Secondcircle{
+    position: absolute;
+    right:0;
+    top:-10px;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-color: #6A9CFD;
+
+}
+.titleBox{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width:850px;
+    height:250px;
+
+}
+.contact h2{
+    font-family: 'Roboto Mono', monospace;
+    color:rgb(253, 101, 101);
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.fa-github-alt{
+    color:white;
+    font-size:30px;
+}
+.fa-twitter{
+    color:white;
+    font-size:30px;
+}
+.fa-linkedin-in{
+    color:white;
+    font-size:30px;
+}
+.circles{
+    padding:8px;
+    height:45px;
+    width:45px;
+    border-radius: 50%;
+}
+.sec{
+    background-color: #FF8989;
+}
+.third{
+    background-color: #FF8989;
+    padding-left:10px;
+
+
+}
+.fir{
+    background-color: #6A9CFD;
+    
+  
+}
+@media (max-width:992px){
+    .Maintitle{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .Spottitle{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .circle{
+        height:200px;
+        width:200px;
+    }
+    .titleBox{
+        width:550px;
+        height:150px;
+    }
+    .titleBox::after{
+        width: 300px;
+    }
+    .bottom{
+        margin-top: 30vh;
+    }
+   
+    
+}

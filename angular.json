@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "favorite-spots"
+    }
+  },
+  "defaultProject": "favorite-spots",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
