@@ -149,7 +149,28 @@
     }
     .bottom{
         margin-top: 30vh;
+    }  
+}
+@media (max-width: 450px){
+    .Maintitle{
+        font-size: 30px;
+        margin-top: 70px;
     }
-   
-    
+    .Spottitle{
+        font-size: 30px;
+        margin-top: 70px;
+        margin-left:10px;
+    }
+    .circle{
+        top: 50px;
+        height:100px;
+        width:100px;
+    }
+    .titleBox{
+        width:300px;
+        height:120px;
+    }
+    .titleBox::after{
+        width: 200px;
+    }
 }
