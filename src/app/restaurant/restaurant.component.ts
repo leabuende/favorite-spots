@@ -21,14 +21,14 @@ export class RestaurantComponent implements OnInit {
       description:'The best place in the world to have a picnic'
     },
     {
-      title: 'Parc du Luxembourg',
-      location:'Paris',
-      description:'The best place in the world to have a picnic'
+      title: 'Lorem Ipsum',
+      location:'London',
+      description:'Lorem Ipsum is simply dummy text of the printingand typesetting industry.'
     },
     {
-      title: 'Parc du Luxembourg',
-      location:'Paris',
-      description:'The best place in the world to have a picnic'
+      title: 'Passagio',
+      location:'Milan',
+      description:'If you are going to use a passage of Lorem Ipsum, you need to be sure there.'
     }
   ]
   constructor(

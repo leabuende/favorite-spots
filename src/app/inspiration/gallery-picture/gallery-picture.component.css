@@ -10,6 +10,15 @@ img{
     height: 210px;
     width:auto;
 }
+.description{
+    height:200px;
+    position: absolute;
+    visibility: hidden;
+    transition: 1s;
+}
+.description:hover{
+    visibility: visible;
+}
 
 .card img:hover{
     filter: blur(2px);
