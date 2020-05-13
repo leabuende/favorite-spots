@@ -8,6 +8,7 @@ import { InspirationComponent } from './inspiration/inspiration.component';
 import { AddComponent } from './add/add.component';
 import { GalleryPictureComponent } from './inspiration/gallery-picture/gallery-picture.component';
 import { RestaurantCardComponent } from './restaurant/restaurant-card/restaurant-card.component';
+import { GalleryDetailsComponent } from './inspiration/gallery-details/gallery-details.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RestaurantCardComponent } from './restaurant/restaurant-card/restaurant
     InspirationComponent,
     AddComponent,
     GalleryPictureComponent,
-    RestaurantCardComponent
+    RestaurantCardComponent,
+    GalleryDetailsComponent
   ],
   imports: [
     BrowserModule,

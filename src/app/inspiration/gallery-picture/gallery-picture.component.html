@@ -1,2 +1,6 @@
 <div class="card" [style.border]="cards.border + ' solid 4px'">
+    <img [src]="cards.source" alt="image">
 </div>
+<!--<a class="nav-link" [routerLink]="['/get-inspired/',cards.id]"> {{cards.id}} </a>
+-->
+<router-outlet></router-outlet>

@@ -1,0 +1,26 @@
+.Maintitle{
+    font-family: 'Roboto Mono', monospace;
+    color:#FF8989;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+label{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 20px;
+}
+input{
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 25px;
+    border: 1px solid  #FF8989;
+}
+textarea{
+    border: 1px solid  #FF8989;
+    border-radius: 25px;
+}
+.submit{
+   margin-top: 30px;
+   color: white;
+   background-color: #FF8989;
+}

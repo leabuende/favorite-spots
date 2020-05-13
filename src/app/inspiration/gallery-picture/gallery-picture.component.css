@@ -5,3 +5,14 @@
     margin: 20px;
     overflow:hidden;
 }
+img{
+    transition: 1s;
+    height: 210px;
+    width:auto;
+}
+
+.card img:hover{
+    filter: blur(2px);
+    opacity: 70%;
+    transform: translateY(-10px);
+}

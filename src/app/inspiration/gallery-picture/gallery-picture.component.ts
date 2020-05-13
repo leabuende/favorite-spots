@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class GalleryPictureComponent implements OnInit {
   @Input() cards: any;
+  @Input() index: Number;
   constructor() { }
 
   ngOnInit(): void {
