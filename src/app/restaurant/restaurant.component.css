@@ -33,10 +33,6 @@ h2{
   margin-top: 20px;
   margin-left: 20px;
 }
-.underlined {
-  cursor: pointer;
-  text-decoration: underline;
-}
 .card{
     font-family: 'Roboto Mono', monospace;
     display: flex;
