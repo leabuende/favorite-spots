@@ -1,12 +1,22 @@
-<h1 class="Maintitle">My favorite restaurants.-</h1>
+<h1 class="Maintitle">
+  Favorite restaurants.-
+</h1>
 <div class="container-fluid">
-    <div class="row " >
-        
-            <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center" *ngFor="let item of cards; let index = index">
+    <div class="row" >
+
+            <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center"
+                 *ngFor="let card of getCards() as cards;
+                         let index = index"
+            >
                 <div class="card container">
                     <div class="row">
                         <div class="col-4">
-                            <div class="picture "></div>
+                            <div class="picture"
+                                 (click)="this.handlePictureClick(card)"
+                                 [class.lea]="card.contributor.name === 'Lea'"
+                                 [class.nathan]="card.contributor.name === 'Nathan'"
+                            >
+                            </div>
                         </div>
                         <div class="description col-8">
                             <h2>{{cards[index].title}}</h2>
@@ -14,9 +24,9 @@
                             <p class="caption">{{cards[index].description}}</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
-       
+
     </div>
 </div>

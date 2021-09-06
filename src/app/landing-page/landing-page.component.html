@@ -9,9 +9,14 @@
     <div class="row text d-none d-lg-block">
         <div class="col-12">
             <div class="second">
-                <p class="list">
-                    - Restaurant
-                </p>
+                <div class="list flex-row">
+                  - Restaurant
+                  <div class="typewriter" (click)="this.navToRestaurants()">
+                    <p>
+                      why not add yours?
+                    </p>
+                  </div>
+                </div>
                 <div class="Secondcircle"></div>
 
             </div>
@@ -34,7 +39,7 @@
 
                 <div class="links">
                     <div class="circles fir">
-                        <a target="_blank" href="http://www.github.com/leabuende"><i class="fab fa-github-alt"></i> </a>                   
+                        <a target="_blank" href="http://www.github.com/leabuende"><i class="fab fa-github-alt"></i> </a>
                     </div>
                     <div class="circles sec">
                         <a target="_blank" href="https://twitter.com/leaaucaramel"> <i class="fab fa-twitter"></i></a>
