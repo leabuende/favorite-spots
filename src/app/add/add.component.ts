@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-add',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(
+    private titleService: Title
+  ) {
+    this.titleService.setTitle('My Favorite Spots - Contribute');
+  }
   ngOnInit(): void {
   }
 

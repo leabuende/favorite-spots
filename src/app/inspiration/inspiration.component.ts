@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-inspiration',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InspirationComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private titleService: Title,
+  ) {
+    this.titleService.setTitle('My Favorite Spots - Inspiration');
+  }
   size: number =  Math.floor(Math.random() * 6);
   colors: any = ['yellow','green','red', 'blue']
 
@@ -38,7 +43,7 @@ export class InspirationComponent implements OnInit {
       width: 6,
       source: 'assets//5.jpg'
     }
-   
+
   ]
   ngOnInit(): void {
   }
